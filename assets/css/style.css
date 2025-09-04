@@ -1,0 +1,42 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-heading: #201830;
+  --color-desc: #665f73;
+  --color-btn: #936cdd;
+  --primary-color1: #fff8f3;
+  --primary-color2: #ff9051;
+  --primary-color3: #936cdd;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 30px;
+  color: var(--primary-color);
+  background: #ccc;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* Common */
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
