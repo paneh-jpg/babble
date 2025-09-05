@@ -15,20 +15,24 @@
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   .container {
-    --spacer: 20;
+    --spacer: 20px;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
   .container {
-    --spacer: 0;
+    --spacer: 30px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
   .container {
-    --spacer: 0;
+    --spacer: 30px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
